@@ -31,15 +31,17 @@
   
       <div class="Section-Lang" hidden>	  
         <div class="btn-group">
-          <button type="button" class="btn btn-light">English</button>
+          <button name="cur_language" type="button" class="btn btn-light">English</button>
           <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <span class="sr-only">Toggle Dropdown</span>
           </button>
           <div class="dropdown-menu force-scroll">
-            <a class="dropdown-item" href="#" onclick="console.log('spanish')">Spanish</a>
-            <a class="dropdown-item" href="#" onclick="console.log('portuguese')">Portuguese</a>
-            <a class="dropdown-item" href="#">Italian</a>
-            <a class="dropdown-item" href="#">French</a>
+            <a class="dropdown-item" href="#" onclick="change_lang(this)">English</a>
+            <a class="dropdown-item" href="#" onclick="change_lang(this)">Spanish</a>
+            <a class="dropdown-item" href="#" onclick="change_lang(this)">Portuguese</a>
+            <a class="dropdown-item" href="#" onclick="change_lang(this)">French</a>
+            <a class="dropdown-item" href="#" onclick="change_lang(this)">Italian</a>
+            <a class="dropdown-item" href="#" onclick="change_lang(this)">German</a>
           </div>
         </div>
         
@@ -47,7 +49,7 @@
         
         </div>
         
-        <button type="button" class="btn btn-outline-light">Translate</button>
+        <button type="button" class="btn btn-outline-light" onclick="req_translation()">Translate</button>
       </div>
   
       <div class="Section-Translation">
