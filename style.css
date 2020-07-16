@@ -1,0 +1,137 @@
+
+/* Colour nav bar black*/
+.TopNav {
+    position: relative;
+    background-color: #444;
+    overflow: hidden;
+}
+
+/* Style nav bar links */
+.TopNav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Links change coloul when selected */
+.TopNav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/*Colour link for current page */
+.TopNav a.active {
+  background-color: #555;
+  color: white;
+}
+
+.Section {
+    position: relative;
+    margin: auto;
+    top: 50px;
+	margin-bottom: 100px;
+    height: 80%;
+    width: 80%;
+    background-color: #444;
+    overflow: hidden;
+}
+
+.Section header {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 26px;
+
+}
+
+.Section img {
+  padding: 14px 16px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  resize: both;
+  max-width: 100%;
+  height: 100%;
+}
+
+.Section btn {
+  position: absolute;
+  left: 50%;
+}
+
+.Section p {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0px 16px;
+  text-decoration: none;
+  font-size: 13px;
+  font-size:1.5vw;
+}
+
+.Section a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.Section-Fact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Section-Lang {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SocialNav {
+    position: relative;
+    background-color: #444;
+    overflow: hidden;
+}
+
+.SocialNav div {
+	position: relative;
+	background-color: #333300;
+	text-align: right;
+	color: white;
+	max-width: 800px;
+}
+
+.SocialNav div:hover {
+	position: relative;
+	background-color: #aaaaaa;
+	text-align: right;
+	color: white
+}
+
+
+/*
+.SocialNav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: right;
+  padding:14px;
+  text-decoration: none;
+  font-size: 17px;
+}*/
+
+.SocialNav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+footer  {
+  position: fixed;
+  background-color: #333300;
+  color: #f2f2f2;
+  overflow: hidden;
+  bottom: 0;
+  width: 100%;
+  text-align: right;
+}
